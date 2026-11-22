@@ -2,9 +2,7 @@
 
 Current guidance is on branch `docs/claude-session-1-update`. Record the exact revision you read. These files describe current project direction and the bounded session instruction. They do not establish implementation acceptance.
 
-First read [TASK_APPROVAL_CRITERIA.md](TASK_APPROVAL_CRITERIA.md). It is the benchmark for every Claude session.
-
-Then read these documents in order:
+Read these documents in order:
 
 1. [PROJECT_PLAN.md](PROJECT_PLAN.md), minimum 14-week horizon for the engine and first two workflows, with later industries and undefined scenarios beyond that.
 2. [DEVELOPMENT_ROADMAP.md](DEVELOPMENT_ROADMAP.md), seven technical stages, not seven administrative sessions.
