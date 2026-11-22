@@ -13,3 +13,7 @@ The initial development direction has seven technical stages:
 These stages describe technical direction. They are **not fixed-duration sessions**, and the project does not end after the seventh stage. Additional workflows and industries are intended after the first two are demonstrated.
 
 Development and acceptance depend on working software and verified evidence. This roadmap does not certify that any stage is complete.
+
+## Current foundation delivery direction
+
+Retain the full foundation scope: versioned definitions, validation, deterministic eligibility, explicit branch/dependency outcomes and reproducible synthetic tests. Deliver it incrementally, beginning with validation. Inspect and reconcile existing saved work before selecting the next implementation change. Exact contracts, fixture expectations and architecture need review before dependent implementation is issued. An existing implementation is not accepted solely because it was reported complete.
