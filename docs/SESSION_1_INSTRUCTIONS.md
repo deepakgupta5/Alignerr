@@ -1,5 +1,15 @@
 # Session 1 eight-hour work plan and first phased instruction R3
 
+Prepared inspection instruction R3. This document is retained as the inspection assignment reference. A continuation must be a separate bounded instruction based on the reviewed result. This note does not issue new work.
+
+## Instruction and answer contract
+
+I want each substantive follow-up to state its instruction, work-item and Session 1 IDs. State one primary activity and one observable outcome. Identify the current phase, actual starting state and applicable requirements. Identify the selected planning reference, or say that weekly selection is pending. Do not invent an approval or schedule.
+
+I want the assigned tasks, allowed changes, exclusions, required evidence, completion criteria and stop rules in the instruction itself. Include the eight response headings and their required fields below in every substantive assignment. A short clarification must reference its active instruction and the field it changes.
+
+I will review each response against both that assignment and the full session objective. Report unrelated findings separately. Do not begin repairs or redesign because you noticed a defect. Keep the existing work unless I assign a change. End at the assigned boundary.
+
 Project links: [project plan](https://github.com/deepakgupta5/Alignerr/blob/docs/claude-session-1-update/docs/PROJECT_PLAN.md) and [development roadmap](https://github.com/deepakgupta5/Alignerr/blob/docs/claude-session-1-update/docs/DEVELOPMENT_ROADMAP.md). Read the versions on branch `docs/claude-session-1-update`. Confirm actual repository access before claiming to have read them.
 
 ## Repository access and reading order
