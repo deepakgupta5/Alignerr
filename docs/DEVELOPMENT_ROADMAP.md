@@ -17,3 +17,7 @@ Development and acceptance depend on working software and verified evidence. Thi
 ## Current foundation delivery direction
 
 Retain the full foundation scope: versioned definitions, validation, deterministic eligibility, explicit branch/dependency outcomes and reproducible synthetic tests. Deliver it incrementally, beginning with validation. Inspect and reconcile existing saved work before selecting the next implementation change. Exact contracts, fixture expectations and architecture need review before dependent implementation is issued. An existing implementation is not accepted solely because it was reported complete.
+
+## Project horizon and later industries
+
+The project has a minimum 14-week planning horizon for the engine and first two workflows. Future industries and undefined scenarios extend that horizon. The seven stages are not seven sessions or an upper limit on the project. See [PROJECT_PLAN.md](PROJECT_PLAN.md) for scope, evidence and expansion controls.
