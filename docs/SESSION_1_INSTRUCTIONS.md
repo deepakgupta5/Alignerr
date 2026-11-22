@@ -16,14 +16,6 @@ In your last response, you reported an uncommitted foundation and 27 passing tes
 
 I have selected a eight-hour work block from the session plan. It spans multiple bounded turns and may need continuation. It is not one eight-hour response. I want you to work through the phases below in order. Do not attempt all the phases in one turn. I will review the evidence at each checkpoint before issuing the next bounded instruction. Keep the same Session 1 ID during continuation. Actual supported hours remain separate from this estimate.
 
-## Session approval benchmark
-
-Read [TASK_APPROVAL_CRITERIA.md](TASK_APPROVAL_CRITERIA.md) before the project documents. This is the benchmark for every session. Prompting, testing and model time count toward eight hours of real work. Do not pre-fill actual time or pad the session. The turns must show owner decisions, direct checks, corrections and focused follow-ups throughout.
-
-My one-line definition of done for this increment is: the approved validator cases and invariants pass at the recorded candidate, with review findings resolved and verification evidence linked. Reaching that outcome within eight hours is not required.
-
-Each prompt assigns one focused activity. Do not combine design, debugging and testing in a single response. I will read each result, inspect or test it through the permitted route, decide the next action and explain the relevant constraint or tradeoff. Unrequested design choices require deliberate disposition. Report them instead of silently treating them as approved.
-
 ## Full route through this work block
 
 | Phase | Planning allowance | Work and expected result |
