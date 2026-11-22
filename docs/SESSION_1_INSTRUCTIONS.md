@@ -1,4 +1,4 @@
-# Session 1 seven-hour work plan and first phased instruction R2
+# Session 1 eight-hour work plan and first phased instruction R3
 
 Project links: [project plan](https://github.com/deepakgupta5/Alignerr/blob/docs/claude-session-1-update/docs/PROJECT_PLAN.md) and [development roadmap](https://github.com/deepakgupta5/Alignerr/blob/docs/claude-session-1-update/docs/DEVELOPMENT_ROADMAP.md). Read the versions on branch `docs/claude-session-1-update`. Confirm actual repository access before claiming to have read them.
 
@@ -10,24 +10,33 @@ First record the local branch, HEAD, remotes and working tree. If network access
 
 I want you to bring this saved workspace up to date before writing more application code. Read docs/PROJECT_PLAN.md, docs/PRODUCT_OVERVIEW.md, docs/DEVELOPMENT_ROADMAP.md and docs/ENGINEERING_PRINCIPLES.md from the updated repository branch. Start with the project plan, then read the roadmap, overview and principles. First verify whether this saved workspace can access that branch. If access fails, report the actual command, error and available local revision. Do not claim to have read unavailable documents. These documents update the project direction. They do not certify the existing implementation or approve an exact schema or fixture baseline.
 
-This is still Session 1, Task ID 0a50dc2d-3947-4ef9-ac00-b27c326547d0. Instruction WE-INS-CL-S001-R2. The work item is WE-WP-CL-S001, supporting the foundation checkpoint. Keep this ID through continuation or compaction. Later administrative sessions get their own IDs. The project has a minimum 14-week horizon for the engine and the first two workflows. That excludes additional industries, workflows and scenarios we have not yet defined. Those extend the roadmap. The seven technical stages are a roadmap, not seven fixed-duration sessions or the end of this project. Do not compress the project into seven sessions.
+This is still Session 1, Task ID 0a50dc2d-3947-4ef9-ac00-b27c326547d0. Instruction WE-INS-CL-S001-R3. The work item is WE-WP-CL-S001, supporting the foundation checkpoint. Keep this ID through continuation or compaction. Later administrative sessions get their own IDs. The project has a minimum 14-week horizon for the engine and the first two workflows. That excludes additional industries, workflows and scenarios we have not yet defined. Those extend the roadmap. The seven technical stages are a roadmap, not seven fixed-duration sessions or the end of this project. Do not compress the project into seven sessions.
 
 In your last response, you reported an uncommitted foundation and 27 passing tests. I want you to preserve that work. I have not yet verified the implementation or those results. Your proposed session sequence has not been adopted. Use the repository roadmap and reconcile your existing work against it.
 
-I have selected a seven-hour work block from the session plan. It spans multiple bounded turns and may need continuation. It is not one seven-hour response. I want you to work through the phases below in order. Do not attempt all the phases in one turn. I will review the evidence at each checkpoint before issuing the next bounded instruction. Keep the same Session 1 ID during continuation. Actual supported hours remain separate from this estimate.
+I have selected a eight-hour work block from the session plan. It spans multiple bounded turns and may need continuation. It is not one eight-hour response. I want you to work through the phases below in order. Do not attempt all the phases in one turn. I will review the evidence at each checkpoint before issuing the next bounded instruction. Keep the same Session 1 ID during continuation. Actual supported hours remain separate from this estimate.
+
+## Session approval benchmark
+
+Read [TASK_APPROVAL_CRITERIA.md](TASK_APPROVAL_CRITERIA.md) before the project documents. This is the benchmark for every session. Prompting, testing and model time count toward eight hours of real work. Do not pre-fill actual time or pad the session. The turns must show owner decisions, direct checks, corrections and focused follow-ups throughout.
+
+My one-line definition of done for this increment is: the approved validator cases and invariants pass at the recorded candidate, with review findings resolved and verification evidence linked. Reaching that outcome within eight hours is not required.
+
+Each prompt assigns one focused activity. Do not combine design, debugging and testing in a single response. I will read each result, inspect or test it through the permitted route, decide the next action and explain the relevant constraint or tradeoff. Unrequested design choices require deliberate disposition. Report them instead of silently treating them as approved.
 
 ## Full route through this work block
 
 | Phase | Planning allowance | Work and expected result |
 | --- | ---: | --- |
-| 1. Catch up and inspect | 30 minutes | Read the four repository documents. Inspect the saved repository, uncommitted work and existing tests. Reproduce the reported baseline checks and identify evidence limits. Return the eight response sections below. |
-| 2. Reconcile requirements and design | 40 minutes | Compare the saved design with the full foundation scope. Propose interfaces, exact files, validation phases, error handling, alternatives and test strategy. Resolve the selected schema and fixture expectations through review and owner disposition. Record applicable readiness checks before implementation. |
-| 3. Implement and test the validator | 150 minutes | After the bounded implementation instruction, implement the selected validator and independent tests. Preserve usable existing work. Demonstrate approved input, error and non-execution behavior. Record actual test results and the exact candidate identity. |
-| 4. Technical review | 50 minutes | Hand the candidate and permitted evidence to the assigned reviewer. Assess requirements, interfaces, correctness, failure/error behavior, coverage and maintainability. Record findings. A developer self-check does not replace separate technical review. |
-| 5. Debug and correct | 65 minutes | Reproduce each finding. Establish whether it is a code, requirement, fixture, harness or environment issue. Make bounded corrections in the coding context. Rerun affected tests and regression. Return the corrected candidate for review closure. |
-| 6. QC verification | 55 minutes | Freeze the reviewed candidate. Use the qualified assessor and permitted evidence route. Challenge normal, invalid, boundary and invariant behavior. Record the assessor identity, checks and limits. A self-check is not independent cold QC. |
-| 7. Close and preserve | 30 minutes | Reconcile every assigned criterion with evidence, remaining findings and actual time. Save the exact state under the governing guide. Record the next safe action and remaining roadmap scope. Do not mark the whole project Complete. |
-| Total planned work block | 420 minutes | Seven hours planned. No actual hours or successful phase outcomes are pre-recorded. |
+| 1. Catch up and inspect | 30 minutes | Read the current documents and inspect saved state. Return the inventory first. Run baseline checks only under a separate focused follow-up after that inventory is reviewed. |
+| 2. Reconcile requirements and design | 40 minutes | Review the actual starting evidence, alternatives, interfaces, exact contract/fixture scope and readiness. Return a design proposal for disposition. |
+| 3. Implement the bounded change | 180 minutes | After scoped issuance, build the selected validator. Preserve usable work. Identify the candidate and unrequested choices. Respond to bounded implementation prompts rather than completing all future phases. |
+| 4. Test | 60 minutes | Exercise approved normal, invalid, boundary and invariant cases under focused testing instructions. Record commands and results. |
+| 5. Technical review | 50 minutes | Assess the candidate and evidence through the assigned review route. Record coverage, correctness, interfaces, maintainability and findings. |
+| 6. Debug and correct | 65 minutes | Reproduce actual findings, establish root cause and apply bounded corrections. Test corrections in focused follow-ups and obtain review closure. |
+| 7. QC verification | 35 minutes | Freeze the reviewed candidate. Use the qualified assessor and evidence route. Record checks, independence and limits. A self-check is not independent QC. |
+| 8. Close and preserve | 20 minutes | Reconcile approval criteria, product evidence, defects and supported actual hours. Preserve saved state and next action. |
+| Total planned work block | 480 minutes | Eight hours planned. No actual hours or successful outcomes are pre-recorded. |
 
 The allowances organize the work. They are not time to manufacture or a reason to rush a failed check. Existing completed work may change the remaining allocation. If the work cannot finish in the available block, preserve a PARTIAL or BLOCKED handoff. Do not expand scope to fill time or skip verification to meet the estimate.
 
@@ -59,10 +68,10 @@ I want you to do the following now:
 
 1. Inspect /home/model/Alignerr and confirm the actual path, Git HEAD, branch, status, untracked files, local instructions and available tools. Identify what exists only as uncommitted work. Preserve the repository history and original README text. Read the repository documents as inputs. Do not overwrite your local architecture notes or source files with them.
 2. Inventory the source, tests, CLI and architecture records you created. Explain their interfaces and which requirements they address. Identify assumptions you made before receiving my answers. Do not redesign the implementation in this turn.
-3. Run the existing tests with warnings treated as errors. Give the exact command, interpreter version, test names or discovery output, counts, failures, skips and exit status. Show the command and result for the existing CLI smoke checks. If the result differs from your reported 27 passes, explain the discrepancy before making a correction.
-4. Examine what your crash and audit tests establish. Distinguish process termination from power-loss durability. Distinguish database access controls, hash-chain verification and independent tail-checkpoint comparison. State the remaining limits. Do not claim a broader guarantee from a passing test.
+3. Identify the existing test commands, test files and CLI checks that can reproduce your reported baseline. Do not run them in this initial response. I will issue a separate focused baseline-testing instruction after reviewing the inventory.
+4. Identify the crash and audit tests supporting your previous claims. State which claims require further evidence. Distinguish process termination from power-loss durability, and database controls from hash-chain and independent tail-checkpoint verification. Do not report an unobserved pass.
 5. Reconcile your work with the full foundation scope: versioned definitions, validation before evaluation, deterministic eligibility, explicit dependency and branch outcomes, and reproducible synthetic tests. Delivery begins with validation. Existing persistence and audit code can remain available for later review. It does not establish completion of a foundation or durability milestone.
-6. Propose the next bounded validator increment. Explain the actual starting point, exact files, public boundary, graph/error handling, tests, dependencies and estimate. A 25-case validator selection is being qualified separately. Do not invent its contents or claim you have received it. Identify any saved code that conflicts with the proposed increment and recommend the smallest justified change.
+6. Identify existing definition and validation components and any apparent conflicts with the retained foundation scope. A 25-case validator selection is being qualified separately. Do not invent its contents or claim you have received it. Defer the design proposal and implementation to their focused instructions.
 
 I have approved explicit ALL/ANY for joins with multiple prerequisites and a failure guard for both. A failed prerequisite must not count as completed or skipped. Bypassing it requires a separately approved recovery rule. Do not invent that exception or infer the rest of the schema from this policy.
 
