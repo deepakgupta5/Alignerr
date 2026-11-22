@@ -30,8 +30,6 @@ These are dependency-led technical stages. They are not dated weekly commitments
 
 ## Working cadence and evidence
 
-[TASK_APPROVAL_CRITERIA.md](TASK_APPROVAL_CRITERIA.md) is the benchmark for every Claude session. It requires eight hours of supported real work, a starting plan, a measurable one-line definition of done, owner-led decisions, focused prompts, direct checking after responses and visible review/correction throughout. Completion of the engineering objective within eight hours is not required.
-
 Select bounded work from the current roadmap and actual saved state. A planned eight-hour work block spans multiple bounded prompts, implementation results, reviews and corrections. One response must not claim the whole block is complete.
 
 Each substantial milestone needs requirement coverage, an actual candidate identity, relevant normal/invalid/boundary/failure results, technical review, appropriately qualified QC verification, defect disposition and owner acceptance. Keep planned time separate from supported actual hours.
