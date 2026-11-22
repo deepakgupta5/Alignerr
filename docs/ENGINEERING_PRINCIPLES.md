@@ -9,6 +9,10 @@ These are intended product engineering constraints, not evidence of implemented 
 - Use reproducible inputs, including an explicit clock and deterministic tie-breaking.
 - Validate malformed definitions and illegal state transitions.
 
+## Approved dependency policy
+
+Require explicit ALL or ANY for a join with multiple prerequisites. Apply a failure guard to both modes. A failed prerequisite must not be treated as completed or skipped. Bypassing a failed prerequisite requires a separately approved recovery rule. This policy does not approve a complete schema, fixture oracle or implementation.
+
 ## Human control
 
 - Actions requiring approval must not execute without valid authority.
